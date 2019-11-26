@@ -73,20 +73,26 @@ img{
  h3{
    color: yellow;
  }
+ .container .grey{
+   background-color: white;
+ }
+ #steps {
+   background-color: purple;
+ }
  .row {
    width: 100%;
  }
  #lezioni .row > .left, #lezioni .row > .right{
    width: 100%;
  }
-
-#steps {
-  width: 100%
-}
-
+/* steps */
 #steps .row > .left,
 #steps .row > .central,
 #steps .row > .right{
 
   background-color: purple;
+  width: 100%;
+  text-shadow: 0 0 20px #d43ee6;
+  margin-top: 20px;
+}
 }
