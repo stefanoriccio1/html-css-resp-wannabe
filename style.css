@@ -70,14 +70,23 @@ img{
 @media screen and (max-width: 420px) {
   h1 {
  color: lightgreen; }
+ h3{
+   color: yellow;
+ }
  .row {
    width: 100%;
  }
  #lezioni .row > .left, #lezioni .row > .right{
    width: 100%;
  }
- #lezioni .row img {
-   height:100%;
- }
 
+#steps {
+  width: 100%
+}
+
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+
+  background-color: purple;
 }
