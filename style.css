@@ -111,7 +111,7 @@ body{
 
 /* breakpoint <780 */
 
-@media screen and (max-width: 780px){
+@media screen and (min-width: 421px) and (max-width: 780px){
   body{
     margin: auto;
     font-family: 'Amatic SC', cursive;
