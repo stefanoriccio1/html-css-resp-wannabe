@@ -117,8 +117,9 @@ body{
   h3{
     color: red;
   }
-  #lezioni .row{
+  .row{
     margin-top: 0;
+    width: 100%;
   }
 #lezioni .row > .left, #lezioni .row > .right{
     background-color: lightyellow;
@@ -126,6 +127,22 @@ body{
     margin: 0 10px;
     width: calc(50% - 40px);
     padding: 10px;
-    height: 350px;
+    min-height: 380px;
+  }
+
+  /* blocco steps */
+
+  #steps{
+    background-color: lightgreen;
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: left;
+    background-color: lightpink;
+    margin: 0 10px;
+    width: calc(33% - 40px);
+    min-height: 400px;
+    padding: 10px;
   }
 }
