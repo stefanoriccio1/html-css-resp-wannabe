@@ -98,4 +98,8 @@ body{
   text-shadow: 0 0 20px #d43ee6;
   margin-top: 20px;
 }
+#why .row{
+  background-color: blue;
+  margin-top: 0;
+}
 }
