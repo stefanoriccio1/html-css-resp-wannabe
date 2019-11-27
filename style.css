@@ -117,6 +117,9 @@ body{
   h3{
     color: red;
   }
+  h1{
+    background-color: lightgreen;
+  }
   .row{
     margin-top: 0;
     width: 100%;
@@ -151,15 +154,20 @@ body{
   #why .row > .second,
   #why .row > .third {
     float: left;
+    background-color: lightblue;
     width: 33%;
     margin: 0 10px;
     margin-top: auto;
     width: calc(33% - 60px);
     padding: 10px;
-    min-height: 380px;
+    min-height: 500px;
   }
   hr{
     display: none;
+  }
+  #why .row img {
+    width: 100px;
+    height: 100px;
   }
 
 }
