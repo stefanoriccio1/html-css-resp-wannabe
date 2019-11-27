@@ -108,10 +108,20 @@ body{
 
 @media screen and (max-width: 780px){
   body{
-    margin: 0;
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+    background-color: lightgreen;
+  }
+  h1,
+  h3{
+    font-weight: bold;
   }
   #lezioni{
+    position: relative;
+  }
+#lezioni .row > .left, #lezioni .row > .right{
     background-color: lightyellow;
-    width: 100%;
+    vertical-align: middle;
+    margin: auto;
   }
 }
