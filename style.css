@@ -103,3 +103,15 @@ body{
   margin-top: 0;
 }
 }
+
+/* breakpoint <780 */
+
+@media screen and (max-width: 780px){
+  body{
+    margin: 0;
+  }
+  #lezioni{
+    background-color: lightyellow;
+    width: 100%;
+  }
+}
