@@ -173,4 +173,9 @@ body{
     width: 100px;
     height: 100px;
   }
+  .img{
+    width: auto;
+    height: auto;
+  }
+}
 }
